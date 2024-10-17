@@ -71,11 +71,10 @@ for i, job_title in enumerate(job_titles):
                 palette='crest', 
                 legend = False)
 ```
+![image-2](https://github.com/user-attachments/assets/937bb78e-bc33-4b37-a2ab-1e65f1a47a97)
+*![image-3](https://github.com/user-attachments/assets/d4d34abd-d698-494d-8527-e585677ba4c5)
 
-![alt text](image-2.png)
-![alt text](image-3.png)
-
-*Bar graph to visualize the top 3 data roles and top 5 most in-demand skills for each role.*
+Bar graph to visualize the top 3 data roles and top 5 most in-demand skills for each role.*
 ### Insights
 - For Data Analysts and Data Engineers, SQL is the most requested skill to have. Data Scientist has Python as its most-demanded skill instead.
 - Python is still versatile, appearing in the top 5 skills in all top 3 roles, indicating high demand by organizations to have python knowledge.
@@ -98,8 +97,8 @@ from matplotlib.ticker import PercentFormatter
 ax = plt.gca()
 ax.yaxis.set_major_formatter(PercentFormatter(decimals = 0))
 ```
-![alt text](image-4.png)
-![alt text](image-5.png)
+![image-4](https://github.com/user-attachments/assets/1fcf8f41-f81c-4af2-b007-8221d4ede438)
+![image-5](https://github.com/user-attachments/assets/aa88e1a7-ae95-4a29-8e2a-19e914ed83f9)
 
 *Line graph to visualize the top skills for Data Analysts over time.*
 ### Insights
@@ -123,8 +122,8 @@ sns.barplot(data=df_us_top10pay, x = 'median', y = df_us_top10pay.index, ax=ax[0
 # US Graph - In-Demand
 sns.barplot(data=df_us_topskills, x = 'median', y = df_us_topskills.index, ax=ax[1], hue='median', palette='light:g')
 ```
-![alt text](image-13.png)
-![alt text](image-12.png)
+![image-13](https://github.com/user-attachments/assets/e9f108cd-3055-4209-86b6-5732333134be)
+![image-12](https://github.com/user-attachments/assets/cb9aad02-f4b7-46f8-b6ed-4b1b1f310a32)
 
 ### Insights
 - The graphs show differences in the two markets, US favors niched specialized skills such as `dplyr`/`Bitbucket` that are associated with higher pay while Malaysia suggests a higher pay focusing on core data analytics skills like `azure`/`BigQuery`/`Spark`. 
@@ -145,7 +144,7 @@ sns.scatterplot(
     hue = 'technology')
 sns.despine()
 ```
-![alt text](image.png) 
+![image](https://github.com/user-attachments/assets/805e80ef-a760-4ef8-aec4-c8134c5f99fe)
 
 *Scatterplots to illustrating optimal skills to learn*
 
