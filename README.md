@@ -54,7 +54,7 @@ The filtered US dataset contains a larger sample **(20.6k observations)** while 
 ## 1. What are the skills most in demand for the top 3 most popular data roles?
 Highlighting the most popular job titles for hiring and their associated top demanded skills to be paid attention to.
 
-View my notebook for detailed steps [here]().
+View my notebook for detailed steps [here](https://github.com/zachwong00/python-data-analytics/blob/main/Notebooks/02_SkillDemand.ipynb).
 
 #### Visualizing the Data
 ```python
@@ -83,7 +83,7 @@ Bar graph to visualize the top 3 data roles and top 5 most in-demand skills for 
 ## 2. How are in-demand skills trending for Data Analysts?
 Highlighting the top 5 skills of data analysts over time by month, displaying how popular the skills were throughout 2023. The job market datasets are further filtered to only contain data analyst positions.
 
-View my notebook for detailed steps [here]().
+View my notebook for detailed steps [here](https://github.com/zachwong00/python-data-analytics/blob/main/Notebooks/03_SkillTrends.ipynb).
 
 #### Visualizing the Data
 ```python
@@ -110,7 +110,7 @@ ax.yaxis.set_major_formatter(PercentFormatter(decimals = 0))
 ## 3. How well do jobs and skills pay for Data Analysts?
 This analysis attempts to examine which data analytics skills are the highest-paid and most in-demand for the US and Malaysia job market.
 
-View my notebook for detailed steps [here]().
+View my notebook for detailed steps [here](https://github.com/zachwong00/python-data-analytics/blob/main/Notebooks/04_SalaryAnalysis.ipynb).
 
 #### Visualizing the Data
 ```python
@@ -133,7 +133,7 @@ sns.barplot(data=df_us_topskills, x = 'median', y = df_us_topskills.index, ax=ax
 ## 4. What are the optimal skills for data analysts to learn?
 Identifying which skills are the most optimal to learn, these balances both in salary and demand. I calculated the skill demand and median salary of these skills, grouped by their respective technology.
 
-View my notebook for detailed steps [here]().
+View my notebook for detailed steps [here](https://github.com/zachwong00/python-data-analytics/blob/main/Notebooks/05_OptimalSkill.ipynb).
 
 #### Visualizing the Data
 ```python
